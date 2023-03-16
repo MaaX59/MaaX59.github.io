@@ -39,24 +39,23 @@ let playerDirection;
 
 
 function preload(){
-    dirt = loadImage(`img/dirt.png`);
-    gold = loadImage(`img/gold.png`);
-    iron = loadImage(`img/iron.png`);
-    oil = loadImage(`img/oil.png`);
-    rock = loadImage(`img/rock.png`);
-    dug = loadImage(`img/dug.png`);
+    dirt = loadImage(`dirt.png`);
+    gold = loadImage(`gold.png`);
+    iron = loadImage(`iron.png`);
+    oil = loadImage(`oil.png`);
+    rock = loadImage(`rock.png`);
+    dug = loadImage(`dug.png`);
 
-    //soundFormats('wav');
-    //digSound = new sound(`img/digging.wav`);
+    
 
-    playerLeft = loadImage(`img/player-left.png`);
-    playerDown = loadImage(`img/player-down.png`);
-    playerRight = loadImage(`img/player-right.png`);
-    playerNorm = loadImage(`img/player-norm.png`);
+    playerLeft = loadImage(`player-left.png`);
+    playerDown = loadImage(`player-down.png`);
+    playerRight = loadImage(`player-right.png`);
+    playerNorm = loadImage(`player-norm.png`);
 
-    startScreen = loadImage(`img/start-background-overlay - Copy.png`);
-    gameOverScreen = loadImage(`img/newGameOver-background.png`);
-    winScreen = loadImage(`img/winScreen.png`);
+    startScreen = loadImage(`start-background-overlay - Copy.png`);
+    gameOverScreen = loadImage(`newGameOver-background.png`);
+    winScreen = loadImage(`winScreen.png`);
 }
 
 function setup(){
